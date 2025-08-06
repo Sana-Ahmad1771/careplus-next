@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import productsData from "../products/productsData.json";
 import { TiStarFullOutline } from "react-icons/ti";
@@ -83,6 +83,8 @@ const Filters = () => {
       : `"${selectedCategories.join(", ")}"`;
 
   return (
+    <Suspense>
+
     <section className="py-20 px-5 lg:px-32 xl:px-40 font-poppins overflow-hidden">
       <div className="flex flex-col lg:flex-row gap-10">
         {/* Filters Sidebar */}
@@ -194,6 +196,7 @@ const Filters = () => {
         </main>
       </div>
     </section>
+    </Suspense>
   );
 };
 
