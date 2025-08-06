@@ -1,12 +1,11 @@
 "use client";
 
-import { useState, useEffect, Suspense } from "react";
+import { useState, useEffect } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import productsData from "../products/productsData.json";
 import { TiStarFullOutline } from "react-icons/ti";
+import { Suspense } from "react";
 
-
-// Import your actual images
 import respiratory1 from "../../../product-images/respiratory-1.png";
 import respiratory2 from "../../../product-images/respiratory-2.png";
 import respiratory3 from "../../../product-images/respiratory-3.png";
@@ -85,7 +84,6 @@ const Filters = () => {
 
   return (
     <Suspense>
-
     <section className="py-20 px-5 lg:px-32 xl:px-40 font-poppins overflow-hidden">
       <div className="flex flex-col lg:flex-row gap-10">
         {/* Filters Sidebar */}
