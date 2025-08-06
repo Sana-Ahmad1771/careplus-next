@@ -4,6 +4,7 @@ import { useState, useEffect, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import productsData from "../products/productsData.json";
 import { TiStarFullOutline } from "react-icons/ti";
+import { Suspense } from "react";
 
 // Import your actual images
 import respiratory1 from "../../../product-images/respiratory-1.png";
