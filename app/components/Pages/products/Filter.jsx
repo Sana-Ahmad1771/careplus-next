@@ -4,8 +4,6 @@ import { useState, useEffect } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import productsData from "../products/productsData.json";
 import { TiStarFullOutline } from "react-icons/ti";
-import { Suspense } from "react";
-
 import respiratory1 from "../../../product-images/respiratory-1.png";
 import respiratory2 from "../../../product-images/respiratory-2.png";
 import respiratory3 from "../../../product-images/respiratory-3.png";
@@ -39,7 +37,6 @@ const Filters = () => {
   const router = useRouter();
 
   useEffect(() => {
-    // Load images into product list
     const productsWithImages = productsData.map((product) => ({
       ...product,
       image: imageMap[product.image] || null,
@@ -51,9 +48,7 @@ const Filters = () => {
   }, [searchParams]);
 
   const updateSearchParams = (categories) => {
-    const query = categories.length
-      ? `?category=${categories.join(",")}`
-      : "";
+    const query = categories.length ? `?category=${categories.join(",")}` : "";
     router.push(`/products${query}`);
   };
 
@@ -83,7 +78,6 @@ const Filters = () => {
       : `"${selectedCategories.join(", ")}"`;
 
   return (
-    <Suspense>
     <section className="py-20 px-5 lg:px-32 xl:px-40 font-poppins overflow-hidden">
       <div className="flex flex-col lg:flex-row gap-10">
         {/* Filters Sidebar */}
@@ -195,7 +189,6 @@ const Filters = () => {
         </main>
       </div>
     </section>
-    </Suspense>
   );
 };
 
