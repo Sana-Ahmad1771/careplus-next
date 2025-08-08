@@ -19,10 +19,7 @@ export async function GET() {
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
-          alignItems: "center",
-          fontSize: 60,
-          color: "#1E3A8A",
-          fontWeight: "bold",
+          alignItems: "center"
         }}
       >
         <img
@@ -32,7 +29,6 @@ export async function GET() {
           height="300"
           style={{ marginBottom: "20px" }}
         />
-        CarePlus
       </div>
     ),
     { width: 1200, height: 630 }
