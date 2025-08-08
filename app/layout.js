@@ -18,6 +18,7 @@ export const metadata = {
   },
   description: "Your trusted healthcare partner",
   openGraph: {
+    title: "CarePlus",
     description: "Your trusted healthcare partner",
     images: [
       {
