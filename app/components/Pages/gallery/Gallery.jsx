@@ -55,7 +55,7 @@ const Gallery = () => {
           variants={fadeUp}
         >
           {/* Column 1 */}
-          <div className="grid lg:gap-[42px] gap-5">
+          <div className="grid lg:gap-[42px] md:gap-[23px] sm:gap-[18px] gap-5">
             {[building1, building2, building1].map((src, idx) => (
               <motion.div
                 key={idx}
@@ -72,7 +72,7 @@ const Gallery = () => {
           </div>
 
           {/* Column 2 */}
-          <div className="grid sm:gap-4 md:gap-1 xl:gap-6 lg:gap-10 gap-5">
+          <div className="grid sm:gap-4 md:gap-2 xl:gap-6 lg:gap-12 gap-5">
             {[building2, building2].map((src, idx) => (
               <motion.div
                 key={idx}
@@ -89,7 +89,7 @@ const Gallery = () => {
           </div>
 
           {/* Column 3 */}
-          <div className="grid lg:gap-[42px] gap-5">
+          <div className="grid lg:gap-[42px] md:gap-[23px] sm:gap-[18px] gap-5">
             {[building1, building2, building1].map((src, idx) => (
               <motion.div
                 key={idx}
