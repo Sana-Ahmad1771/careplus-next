@@ -1,3 +1,8 @@
+import("next").Metadata
+export const metadata = {
+  title: "Products"
+}
+
 import { Suspense } from "react";
 import Header from "../components/common/Header";
 import JoiningSafeCare from "../components/Pages/home/joining";

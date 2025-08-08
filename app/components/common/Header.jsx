@@ -89,14 +89,17 @@ const Header = () => {
       {/* Navbar */}
       <div className="flex justify-between items-center px-5 !lg:pr-[478px] xl:mx-40 bg-white shadow-[0px_4px_4px_0px_rgba(0,0,0,0.05)] h-20">
         <div className="flex-shrink-0">
-          <Image
-            src={Logo}
-            alt="safecare-logo"
-            width={120}
-            height={40}
-            className="w-32 h-auto"
-            priority
-          />
+          <a href="/">
+            {" "}
+            <Image
+              src={Logo}
+              alt="safecare-logo"
+              width={120}
+              height={40}
+              className="w-32 h-auto"
+              priority
+            />
+          </a>
         </div>
 
         {/* Desktop Nav */}
@@ -147,13 +150,15 @@ const Header = () => {
                 className="fixed inset-0 bg-white z-50 px-6 sm:pt-10 "
               >
                 <div className="flex justify-between items-center mb-1">
-                  <Image
+                 <a href="/">
+                   <Image
                     src={Logo}
                     width={120}
                     height={40}
                     priority
                     alt="logo"
                   />
+                 </a>
                   <button onClick={closeMenu}>
                     <IoCloseSharp size={30} color={"#1E3D69"} />
                   </button>

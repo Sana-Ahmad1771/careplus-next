@@ -36,7 +36,8 @@ const Footer = () => {
           viewport={{ once: true }}
           className="flex-1 min-w-[190px] lg:max-w-[20%]"
         >
-          <Image
+         <a href="/">
+           <Image
             src="/assets/Mask-group-logo.png"
             alt="Logo"
             width={130}
@@ -44,6 +45,7 @@ const Footer = () => {
             className="mb-5 w-32"
              priority 
           />
+         </a>
           <p className="mb-6 text-[16px]">
             We are many variations of the passages available but the majoro have
             suffered alteration injected.

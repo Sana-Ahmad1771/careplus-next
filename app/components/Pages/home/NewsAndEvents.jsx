@@ -16,7 +16,7 @@ const NewsAndEvents = () => {
       transition={{ duration: 0.6 }}
       viewport={{ once: true }}
     >
-      <motion.h1
+      <motion.h2
         className="text-4xl font-roboto lg:text-[44px] font-normal text-[#1E3D69] mb-9"
         initial={{ opacity: 0, y: -30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -24,7 +24,7 @@ const NewsAndEvents = () => {
         viewport={{ once: true }}
       >
         News and Events
-      </motion.h1>
+      </motion.h2>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 font-poppins">
         {/* Left Main Card */}

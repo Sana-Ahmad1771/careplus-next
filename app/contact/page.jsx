@@ -1,3 +1,7 @@
+import("next").Metadata
+export const metadata = {
+  title: "Contact"
+}
 import Contact from "../components/Pages/contact/Contact";
 import Locationmap from "../components/Pages/contact/Map"
 import JoiningSafeCare from "../components/Pages/home/joining";

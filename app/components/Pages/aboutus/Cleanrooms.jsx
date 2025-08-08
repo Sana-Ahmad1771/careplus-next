@@ -19,9 +19,9 @@ const CleanRoom = () => {
           viewport={{ once: true, amount: 0.3 }}
           variants={fadeInUp}
         >
-          <h1 className="lg:text-[44px] text-4xl mb-5 text-[#1E3D69] font-roboto">
+          <h2 className="lg:text-[44px] text-4xl mb-5 text-[#1E3D69] font-roboto">
             Our Key Strengths
-          </h1>
+          </h2>
           <p className="text-[16px] lg:text-[20px] font-poppins max-w-2xl mx-auto">
             Who are in extremely love with eco-friendly system.
           </p>

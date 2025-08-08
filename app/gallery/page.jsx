@@ -1,3 +1,7 @@
+import("next").Metadata
+export const metadata = {
+  title: "Gallery"
+}
 import Header from "../components/common/Header";
 import Gallery from "../components/Pages/gallery/Gallery";
 import Techniques from "../components/Pages/home/Techniques";

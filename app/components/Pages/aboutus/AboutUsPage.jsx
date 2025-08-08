@@ -1,4 +1,5 @@
 "use client"
+
 import aboutbg from "@/public/assets/unsplash_12Tdn6oLvSU.png";
 import vissionbg from "@/public/assets/bg-about-vission.png";
 import { motion } from "framer-motion";

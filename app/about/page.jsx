@@ -1,3 +1,7 @@
+import("next").Metadata
+export const metadata = {
+  title: "About"
+}
 import Footer from "../components/common/Footer";
 import Header from "../components/common/Header";
 import { AboutUsPage } from "../components/Pages/aboutus/AboutUsPage";

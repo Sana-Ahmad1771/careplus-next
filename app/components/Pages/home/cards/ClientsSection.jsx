@@ -37,7 +37,7 @@ const cardVariants = {
 const ClientsSection = () => {
   return (
     <section className="py-[120px] px-5 lg:px-32 xl:px-40 overflow-hidden" id="clients">
-      <motion.h1
+      <motion.h2
         className="text-4xl font-roboto lg:text-[44px] font-medium text-[#1E3D69] text-center mb-9"
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -45,7 +45,7 @@ const ClientsSection = () => {
         viewport={{ once: true }}
       >
         Our Clients
-      </motion.h1>
+      </motion.h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
         {ourclients.map((client, index) => (

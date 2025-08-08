@@ -17,9 +17,9 @@ const Techniques = () => {
           transition={{ duration: 1, delay: 0.1 }}
           viewport={{ once: true }}
         >
-          <h1 className="text-4xl font-roboto lg:text-[44px] font-medium text-[#1E3D69]">
+          <h2 className="text-4xl font-roboto lg:text-[44px] font-medium text-[#1E3D69]">
             Manufacturing Techniques
-          </h1>
+          </h2>
           <p className="text-[18px] lg:text-justify lg:text-[20px] font-poppins font-normal leading-normal">
             Our manufacturing includes a wide variety of processes including
             <span className="font-medium">

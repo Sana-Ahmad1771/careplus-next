@@ -16,7 +16,7 @@ const QualityCertification = () => {
       transition={{ duration: 0.6 }}
       viewport={{ once: true }}
     >
-      <motion.h1
+      <motion.h2
         className="text-4xl font-roboto lg:text-[44px] text-[#1E3D69] mb-[9px]"
         initial={{ opacity: 0, y: -30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -24,7 +24,7 @@ const QualityCertification = () => {
         viewport={{ once: true }}
       >
         Quality & Certifications
-      </motion.h1>
+      </motion.h2>
 
       <motion.p
         className="text-[18px] lg:text-[20px] font-poppins"

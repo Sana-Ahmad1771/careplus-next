@@ -48,9 +48,9 @@ export default function OurKeyStrengths() {
       style={{ backgroundImage: `url(${Backgroundmolecule})` }}
     >
       <div className="text-center">
-        <h1 className="text-4xl font-roboto lg:text-[44px] font-medium text-[#1E3D69] mb-9">
+        <h2 className="text-4xl font-roboto lg:text-[44px] font-medium text-[#1E3D69] mb-9">
           Our Key Strengths
-        </h1>
+        </h2>
 
         <div className="flex justify-center items-center">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 2xl:gap-20">

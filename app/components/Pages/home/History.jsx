@@ -39,7 +39,7 @@ const History = () => {
             Our History
           </motion.span>
 
-          <motion.h1
+          <motion.h2
             className="text-4xl font-roboto lg:text-[44px] text-[#1E3D69]"
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -47,7 +47,7 @@ const History = () => {
             viewport={{ once: true }}
           >
             Safecare Medical Industries
-          </motion.h1>
+          </motion.h2>
 
           <motion.p
             className="font-poppins lg:text-justify text-[18px] lg:text-[20px]"
