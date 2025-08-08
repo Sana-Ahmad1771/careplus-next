@@ -72,7 +72,7 @@ const Gallery = () => {
           </div>
 
           {/* Column 2 */}
-          <div className="grid xl:gap-6 lg:gap-12">
+          <div className="grid xl:gap-6 lg:gap-12 gap-5">
             {[building2, building2].map((src, idx) => (
               <motion.div
                 key={idx}

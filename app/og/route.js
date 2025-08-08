@@ -11,17 +11,7 @@ export async function GET() {
 
   return new ImageResponse(
     (
-      <div
-        style={{
-          background: "#F8FAFC", // light brand color
-          width: "100%",
-          height: "100%",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center"
-        }}
-      >
+      <div>
         <img
           src={`data:image/png;base64,${base64Logo}`}
           alt="CarePlus Logo"
