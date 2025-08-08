@@ -48,14 +48,14 @@ const Gallery = () => {
       {/* Gallery Grid */}
       <section className="relative z-10 -top-20 px-5 lg:px-32 xl:px-40 py-10">
         <motion.div
-          className="flex flex-col md:flex-row justify-center items-center md:gap-6 gap-10 bg-white p-4"
+          className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-4 lg:gap- bg-white p-4"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
           variants={fadeUp}
         >
           {/* Column 1 */}
-          <div className="grid gap-[42px]">
+          <div className="grid lg:gap-[42px] gap-5">
             {[building1, building2, building1].map((src, idx) => (
               <motion.div
                 key={idx}
@@ -72,7 +72,7 @@ const Gallery = () => {
           </div>
 
           {/* Column 2 */}
-          <div className="grid xl:gap-6 lg:gap-12 gap-5">
+          <div className="grid sm:gap-4 md:gap-1 xl:gap-6 lg:gap-10 gap-5">
             {[building2, building2].map((src, idx) => (
               <motion.div
                 key={idx}
@@ -89,7 +89,7 @@ const Gallery = () => {
           </div>
 
           {/* Column 3 */}
-          <div className="grid gap-[42px]">
+          <div className="grid lg:gap-[42px] gap-5">
             {[building1, building2, building1].map((src, idx) => (
               <motion.div
                 key={idx}

@@ -22,7 +22,7 @@ export const metadata = {
     description: "Your trusted healthcare partner",
     images: [
       {
-        url: "/og", // This is the OG image route we created
+        url: "/og",
         width: 1200,
         height: 630,
       },
