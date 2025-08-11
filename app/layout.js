@@ -12,9 +12,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://careplus.com"),
   title: {
-    default:"Care Plus",
-    template:"%s - Care Plus"
+    default: "Care Plus",
+    template: "%s - Care Plus",
   },
   description: "Your trusted healthcare partner",
   openGraph: {
