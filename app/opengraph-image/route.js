@@ -1,4 +1,4 @@
-const heroImageUrl = "https://careplus-next.vercel.app/assets/hero-image.png"; // update with your actual hero image
+const heroImageUrl = "https://careplus-next.vercel.app/assets/heroimg.png"; // update with your actual hero image
 
 return new ImageResponse(
   (

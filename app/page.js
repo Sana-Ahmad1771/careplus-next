@@ -20,14 +20,6 @@ export const metadata = {
     description: "Welcome to Care Plus – delivering innovative solutions and top-quality products for the healthcare industry. Explore our services, browse our gallery, and discover how we can meet your needs.",
     url: "https://careplus-next.vercel.app",
     siteName: "Care Plus",
-    images: [
-      {
-        url: "https://careplus-next.vercel.app/opengraph-image",
-        width: 1200,
-        height: 630,
-        alt: "CarePlus Hero",
-      },
-    ],
     locale: "en_US",
     type: "website",
   },
