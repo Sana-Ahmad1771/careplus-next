@@ -29,7 +29,6 @@ export async function GET() {
           height="300"
           style={{ marginBottom: 20 }}
         />
-        <span>Your trusted healthcare partner</span>
       </div>
     ),
     { width: 1200, height: 630 }
