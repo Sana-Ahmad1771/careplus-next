@@ -22,7 +22,7 @@ export const metadata = {
     description: "Your trusted healthcare partner",
     images: [
       {
-        // url: "/og",
+        url: "/og",
         width: 1200,
         height: 630,
       },
