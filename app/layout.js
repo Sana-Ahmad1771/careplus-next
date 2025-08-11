@@ -10,24 +10,17 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
-
 export const metadata = {
-  metadataBase: new URL("https://careplus.com"),
+  metadataBase: new URL("https://careplus-next.vercel.app"),
   title: {
     default: "Care Plus",
-    template: "%s - Care Plus",
+    template: "%s - Care Plus"
   },
   description: "Your trusted healthcare partner",
   openGraph: {
     title: "CarePlus",
     description: "Your trusted healthcare partner",
-    images: [
-      {
-        url: "/og",
-        width: 1200,
-        height: 630,
-      },
-    ],
+    images: ["/og"], // Will be turned into absolute URL
   },
   twitter: {
     card: "summary_large_image",

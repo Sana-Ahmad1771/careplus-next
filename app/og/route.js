@@ -1,26 +1,38 @@
+// app/og/route.js
 import { ImageResponse } from "next/og";
 
-// Route segment config (optional)
-export const runtime = "edge"; // OG image works best with edge runtime
+export const runtime = "edge";
 
 export async function GET() {
-  // Fetch logo from public folder or remote URL
-  const logoUrl = new URL("../../public/assets/Mask-group-logo.png",import.meta.url);
-  const logoData = await fetch(logoUrl).then((res) => res.arrayBuffer());
-  const base64Logo = Buffer.from(logoData).toString("base64");
+  // Use absolute URL to public folder asset
+  const logoUrl = "https://careplus-next.vercel.app/assets/Mask-group-logo.png";
 
   return new ImageResponse(
     (
-      <div>
+      <div
+        style={{
+          fontSize: 48,
+          background: "white",
+          color: "black",
+          width: "100%",
+          height: "100%",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center"
+        }}
+      >
         <img
-          src={`data:image/png;base64,${base64Logo}`}
+          src={logoUrl}
           alt="CarePlus Logo"
           width="300"
           height="300"
-          style={{ marginBottom: "20px" }}
+          style={{ marginBottom: 20 }}
         />
+        <span>Your trusted healthcare partner</span>
       </div>
     ),
     { width: 1200, height: 630 }
   );
 }
+
