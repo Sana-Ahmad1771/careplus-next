@@ -18,12 +18,12 @@ export const metadata = {
   },
   openGraph: {
     title: "CarePlus",
-    images: ["/og"],
+    images: ["/opengraph-image"],
   },
   twitter: {
     card: "summary_large_image",
     title: "CarePlus",
-    images: ["/og"],
+    images: ["/opengraph-image"],
   },
 };
 
