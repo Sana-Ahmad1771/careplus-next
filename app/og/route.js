@@ -3,8 +3,7 @@ import { ImageResponse } from "next/og";
 export const runtime = "edge";
 
 export async function GET() {
-
-  const logoUrl = "https://careplus-next.vercel.app/assets/Rectangle3173.png";
+  const heroImageUrl = "https://careplus-next.vercel.app/assets/Rectangle3173.png";
 
   return new ImageResponse(
     (
@@ -13,17 +12,22 @@ export async function GET() {
           width: "100%",
           height: "100%",
           display: "flex",
+          justifyContent: "center",
           alignItems: "center",
-          justifyContent: "center"
+          backgroundColor: "#fff",
         }}
       >
         <img
-          src={logoUrl}
-          alt="CarePlus Home"
+          src={heroImageUrl}
+          alt="CarePlus Hero"
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover", 
+          }}
         />
       </div>
     ),
     { width: 1200, height: 630 }
   );
 }
-
