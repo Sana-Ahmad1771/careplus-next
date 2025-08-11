@@ -23,8 +23,8 @@ export const metadata = {
     images: [
       {
         // url: "/og",
-        // width: 1200,
-        // height: 630,
+        width: 1200,
+        height: 630,
       },
     ],
   },
