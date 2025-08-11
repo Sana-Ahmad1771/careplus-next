@@ -1,4 +1,3 @@
-
 import Footer from "../components/common/Footer";
 import Header from "../components/common/Header";
 import { AboutUsPage } from "../components/Pages/aboutus/AboutUsPage";
@@ -11,13 +10,13 @@ export const metadata = {
   title: "About Us",
   description: "Learn more about CarePlus, our mission, and our commitment to healthcare excellence.",
   openGraph: {
-    title: "About Us - CarePlus",
+    title: "About Us",
     description: "Learn more about CarePlus, our mission, and our commitment to healthcare excellence.",
     images: ["/og-about.png"], // we can set custome image according to page 
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Us - CarePlus",
+    title: "About Us",
     description: "Learn more about CarePlus, our mission, and our commitment to healthcare excellence.",
     images: ["/og-about.png"],
   },

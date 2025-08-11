@@ -16,16 +16,13 @@ export const metadata = {
     default: "Care Plus",
     template: "%s - Care Plus"
   },
-  description: "Your trusted healthcare partner",
   openGraph: {
     title: "CarePlus",
-    description: "Your trusted healthcare partner",
     images: ["/og"],
   },
   twitter: {
     card: "summary_large_image",
     title: "CarePlus",
-    description: "Your trusted healthcare partner",
     images: ["/og"],
   },
 };
