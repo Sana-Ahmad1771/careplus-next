@@ -20,7 +20,7 @@ export const metadata = {
   openGraph: {
     title: "CarePlus",
     description: "Your trusted healthcare partner",
-    images: ["/og"], // Will be turned into absolute URL
+    images: ["/og"],
   },
   twitter: {
     card: "summary_large_image",
