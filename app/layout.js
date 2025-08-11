@@ -14,16 +14,16 @@ export const metadata = {
   metadataBase: new URL("https://careplus-next.vercel.app"),
   title: {
     default: "Care Plus",
-    template: "%s - Care Plus"
+    template: "%s - Care Plus",
   },
   openGraph: {
     title: "CarePlus",
-    images: ["/opengraph-image"],  // Will call your OG route
+    images: ["https://careplus-next.vercel.app/opengraph-image"], // absolute URL
   },
   twitter: {
     card: "summary_large_image",
     title: "CarePlus",
-    images: ["/opengraph-image"],  // Same as OG
+    images: ["https://careplus-next.vercel.app/opengraph-image"], // absolute URL
   },
 };
 
