@@ -10,13 +10,26 @@ export const metadata = {
   title: "About Us",
   description: "Learn more about CarePlus, our mission, and our commitment to healthcare excellence.",
   openGraph: {
-    title: "About Us",
+    type: "website",
+    locale: "en_US",
+    url: "https://careplus-next.vercel.app",
+    siteName: "Care Plus",
+    title: "About - Care Plus",
     description: "Learn more about CarePlus, our mission, and our commitment to healthcare excellence.",
+    images: [
+      {
+        url: "https://careplus-next.vercel.app/ogimage.png",
+        width: 1200,
+        height: 630,
+        alt: "Care Plus Hero",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Us",
-    description: "Learn more about CarePlus, our mission, and our commitment to healthcare excellence.",
+    title: "About - Care Plus",
+   description: "Learn more about CarePlus, our mission, and our commitment to healthcare excellence.",
+    images: ["https://careplus-next.vercel.app/ogimage.png"],
   },
 };
 
