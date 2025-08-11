@@ -5,8 +5,19 @@ import Footer from "../components/common/Footer";
 import Header from "../components/common/Header";
 
 export const metadata = {
-  title: "Contact",
-  description: "Get in touch with us for inquiries, support, or service details. Find our location, contact form, and ways to connect with our team."
+  title: "Contac",
+  description: "Get in touch with us for inquiries, support, or service details. Find our location, contact form, and ways to connect with our team.",
+  openGraph: {
+    title: "Contact - CarePlus",
+    description: "Get in touch with us for inquiries, support, or service details. Find our location, contact form, and ways to connect with our team.",
+    images: ["/og-contact.png"], // optional custom OG
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact - CarePlus",
+    description: "Get in touch with us for inquiries, support, or service details. Find our location, contact form, and ways to connect with our team.",
+    images: ["/og-contact.png"],
+  },
 };
 
 const page = () => {

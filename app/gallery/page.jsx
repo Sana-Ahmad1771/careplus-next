@@ -9,14 +9,14 @@ export const metadata = {
   description:
     "Browse our gallery featuring high-quality industry images, showcasing modern equipment, innovative processes, and professional work environments that reflect our expertise and commitment to excellence.",
   openGraph: {
-    title: "Gallery",
+    title: "Gallery - CarePlus",
     description:
       "Browse our gallery featuring high-quality industry images, showcasing modern equipment, innovative processes, and professional work environments that reflect our expertise and commitment to excellence.",
     images: ["/og-about.png"], // we can set custome image according to page
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gallery",
+    title: "Gallery - CarePlus",
     description:
       "Browse our gallery featuring high-quality industry images, showcasing modern equipment, innovative processes, and professional work environments that reflect our expertise and commitment to excellence.",
     images: ["/og-about.png"],
