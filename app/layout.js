@@ -26,7 +26,7 @@ export const metadata = {
     siteName: "Care Plus",
     images: [
       {
-        url: "https://careplus-next.vercel.app/opengraph-image", // ABSOLUTE URL
+        url: ["https://careplus-next.vercel.app/opengraph-image"], // ABSOLUTE URL
         width: 1200,
         height: 630,
         alt: "Care Plus Hero",
