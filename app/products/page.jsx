@@ -12,13 +12,13 @@ export const metadata = {
   openGraph: {
     title: "Products - CarePlus",
     description: "Browse our range of high-quality healthcare products designed for your needs.",
-    images: ["/og-products.png"], // optional custom OG
+    // images: ["/og-products.png"], 
   },
   twitter: {
     card: "summary_large_image",
     title: "Products - CarePlus",
     description: "Browse our range of high-quality healthcare products designed for your needs.",
-    images: ["/og-products.png"],
+    // images: ["/og-products.png"],
   },
 };
 

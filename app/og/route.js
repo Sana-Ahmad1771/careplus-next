@@ -5,7 +5,7 @@ export const runtime = "edge";
 
 export async function GET() {
 
-  const logoUrl = "https://careplus-next.vercel.app/assets/Mask-group-logo.png";
+  const logoUrl = "https://careplus-next.vercel.app/assets/Rectangle3173.png";
 
   return new ImageResponse(
     (
