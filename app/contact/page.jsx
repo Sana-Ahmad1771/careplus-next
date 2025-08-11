@@ -5,7 +5,7 @@ import Footer from "../components/common/Footer";
 import Header from "../components/common/Header";
 
 export const metadata = {
-  title: "Contac",
+  title: "Contact",
   description: "Get in touch with us for inquiries, support, or service details. Find our location, contact form, and ways to connect with our team.",
   openGraph: {
     title: "Contact - CarePlus",
