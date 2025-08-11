@@ -9,15 +9,28 @@ export const metadata = {
   description:
     "Browse our gallery featuring high-quality industry images, showcasing modern equipment, innovative processes, and professional work environments that reflect our expertise and commitment to excellence.",
   openGraph: {
-    title: "Gallery - CarePlus",
+    type: "website",
+    locale: "en_US",
+    url: "https://careplus-next.vercel.app",
+    siteName: "Care Plus",
+    title: "Gallery - Care Plus",
     description:
       "Browse our gallery featuring high-quality industry images, showcasing modern equipment, innovative processes, and professional work environments that reflect our expertise and commitment to excellence.",
+    images: [
+      {
+        url: "https://careplus-next.vercel.app/ogimage.png",
+        width: 1200,
+        height: 630,
+        alt: "Care Plus Hero",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gallery - CarePlus",
+    title: "Gallery - Care Plus",
     description:
       "Browse our gallery featuring high-quality industry images, showcasing modern equipment, innovative processes, and professional work environments that reflect our expertise and commitment to excellence.",
+    images: ["https://careplus-next.vercel.app/ogimage.png"],
   },
 };
 

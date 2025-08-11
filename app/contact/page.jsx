@@ -9,15 +9,28 @@ export const metadata = {
   description:
     "Get in touch with us for inquiries, support, or service details. Find our location, contact form, and ways to connect with our team.",
   openGraph: {
-    title: "Contact - CarePlus",
+    type: "website",
+    locale: "en_US",
+    url: "https://careplus-next.vercel.app",
+    siteName: "Care Plus",
+    title: "Contact - Care Plus",
     description:
       "Get in touch with us for inquiries, support, or service details. Find our location, contact form, and ways to connect with our team.",
+    images: [
+      {
+        url: "https://careplus-next.vercel.app/ogimage.png",
+        width: 1200,
+        height: 630,
+        alt: "Care Plus Hero",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact - CarePlus",
+    title: "Contact - Care Plus",
     description:
       "Get in touch with us for inquiries, support, or service details. Find our location, contact form, and ways to connect with our team.",
+    images: ["https://careplus-next.vercel.app/ogimage.png"],
   },
 };
 
