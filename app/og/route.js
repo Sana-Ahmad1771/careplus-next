@@ -7,16 +7,7 @@ export async function GET() {
 
   return new ImageResponse(
     (
-      <div
-        style={{
-          width: "100%",
-          height: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          backgroundColor: "#fff",
-        }}
-      >
+      <div>
         <img
           src={heroImageUrl}
           alt="CarePlus Hero"
