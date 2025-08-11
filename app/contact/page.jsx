@@ -12,14 +12,12 @@ export const metadata = {
     title: "Contact - CarePlus",
     description:
       "Get in touch with us for inquiries, support, or service details. Find our location, contact form, and ways to connect with our team.",
-    // images: ["/og-contact.png"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Contact - CarePlus",
     description:
       "Get in touch with us for inquiries, support, or service details. Find our location, contact form, and ways to connect with our team.",
-    // images: ["/og-contact.png"],
   },
 };
 

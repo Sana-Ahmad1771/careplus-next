@@ -1,3 +1,4 @@
+// app/layout.js
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -15,16 +16,21 @@ export const metadata = {
   metadataBase: new URL("https://careplus-next.vercel.app"),
   title: {
     default: "Care Plus",
-    template: "%s - Care Plus"
+    template: "%s - Care Plus",
   },
   description:
     "Welcome to Care Plus – delivering innovative solutions and top-quality products for the healthcare industry. Explore our services, browse our gallery, and discover how we can meet your needs.",
   openGraph: {
+    type: "website",
+    locale: "en_US",
     url: "https://careplus-next.vercel.app",
     siteName: "Care Plus",
+    title: "Care Plus",
+    description:
+      "Welcome to Care Plus – delivering innovative solutions and top-quality products for the healthcare industry. Explore our services, browse our gallery, and discover how we can meet your needs.",
     images: [
       {
-        url: "https://careplus-next.vercel.app/og-image.png", // Static file
+        url: "https://careplus-next.vercel.app/ogimage.png", // Use .png or .jpg
         width: 1200,
         height: 630,
         alt: "Care Plus Hero",
@@ -33,16 +39,17 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://careplus-next.vercel.app/og-image.png"], // Static file
+    title: "Care Plus",
+    description:
+      "Welcome to Care Plus – delivering innovative solutions and top-quality products for the healthcare industry. Explore our services, browse our gallery, and discover how we can meet your needs.",
+    images: ["https://careplus-next.vercel.app/ogimage.png"],
   },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
     </html>

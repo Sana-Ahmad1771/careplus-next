@@ -12,13 +12,11 @@ export const metadata = {
   openGraph: {
     title: "About Us",
     description: "Learn more about CarePlus, our mission, and our commitment to healthcare excellence.",
-    // images: ["/og-about.png"], 
   },
   twitter: {
     card: "summary_large_image",
     title: "About Us",
     description: "Learn more about CarePlus, our mission, and our commitment to healthcare excellence.",
-    // images: ["/og-about.png"],
   },
 };
 

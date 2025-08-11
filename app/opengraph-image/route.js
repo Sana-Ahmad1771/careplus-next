@@ -3,7 +3,7 @@ import { ImageResponse } from "next/og";
 export const runtime = "edge";
 
 export async function GET() {
-  const heroImageUrl = "https://careplus-next.vercel.app/assets/heroimg.png";
+  const heroImageUrl = "https://careplus-next.vercel.app/ogimage.png";
 
   return new ImageResponse(
     (

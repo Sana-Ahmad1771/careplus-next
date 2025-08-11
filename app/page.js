@@ -12,20 +12,7 @@ import JoiningSafeCare from "./components/Pages/home/joining";
 import Footer from "./components/common/Footer";
 import Header from "./components/common/Header";
 
-export const metadata = {
-  title: "Care Plus - Home",
-  description: "Welcome to Care Plus – delivering innovative solutions and top-quality products for the healthcare industry. Explore our services, browse our gallery, and discover how we can meet your needs.",
-  openGraph: {
-    title: "Care Plus",
-    description: "Welcome to Care Plus – delivering innovative solutions and top-quality products for the healthcare industry. Explore our services, browse our gallery, and discover how we can meet your needs.",
-    siteName: "Care Plus",
-    locale: "en_US",
-    type: "website",
-  },
-  twitter: {
-    description: "Welcome to Care Plus – delivering innovative solutions and top-quality products for the healthcare industry. Explore our services, browse our gallery, and discover how we can meet your needs.",
-  },
-};
+
 
 export default function Home() {
   return (
