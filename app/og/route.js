@@ -1,4 +1,3 @@
-// app/og/route.js
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
@@ -11,21 +10,16 @@ export async function GET() {
     (
       <div
         style={{
-          background: "white",
-          color: "black",
           width: "100%",
           height: "100%",
           display: "flex",
-          flexDirection: "column",
           alignItems: "center",
           justifyContent: "center"
         }}
       >
         <img
           src={logoUrl}
-          alt="CarePlus Logo"
-          width="300"
-          height="300"
+          alt="CarePlus Home"
         />
       </div>
     ),
