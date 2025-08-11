@@ -4,14 +4,13 @@ import { ImageResponse } from "next/og";
 export const runtime = "edge";
 
 export async function GET() {
-  // Use absolute URL to public folder asset
+
   const logoUrl = "https://careplus-next.vercel.app/assets/Mask-group-logo.png";
 
   return new ImageResponse(
     (
       <div
         style={{
-          fontSize: 48,
           background: "white",
           color: "black",
           width: "100%",
@@ -27,7 +26,6 @@ export async function GET() {
           alt="CarePlus Logo"
           width="300"
           height="300"
-          style={{ marginBottom: 20 }}
         />
       </div>
     ),
