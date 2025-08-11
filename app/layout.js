@@ -18,12 +18,12 @@ export const metadata = {
   },
   openGraph: {
     title: "CarePlus",
-    images: ["/opengraph-image"],
+    images: ["/opengraph-image"],  // Will call your OG route
   },
   twitter: {
     card: "summary_large_image",
     title: "CarePlus",
-    images: ["/opengraph-image"],
+    images: ["/opengraph-image"],  // Same as OG
   },
 };
 
