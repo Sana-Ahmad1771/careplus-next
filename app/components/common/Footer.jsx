@@ -79,7 +79,7 @@ const Footer = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
           viewport={{ once: true }}
         >
-          <h4 className="text-2xl font-plus-jakarta-sans mb-4">Quick Links</h4>
+          <h3 className="text-2xl font-plus-jakarta-sans mb-4">Quick Links</h3>
           <ul className="space-y-4 text-[16px]">
             <li>
               <a href="#">Home</a>
@@ -112,7 +112,7 @@ const Footer = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
           viewport={{ once: true }}
         >
-          <h4 className="text-2xl font-plus-jakarta-sans mb-4">Resources</h4>
+          <h3 className="text-2xl font-plus-jakarta-sans mb-4">Resources</h3>
           <ul className="space-y-4 text-[16px]">
             <li>
               <a href="#">Medicine</a>
@@ -143,7 +143,7 @@ const Footer = () => {
           viewport={{ once: true }}
           className="flex-1 min-w-[190px] lg:max-w-[20%]"
         >
-          <h4 className="text-2xl font-plus-jakarta-sans mb-4">Location</h4>
+          <h3 className="text-2xl font-plus-jakarta-sans mb-4">Location</h3>
           <p className="mb-6 text-[16px]">
             PPGH+X76 - Kizad - Khalifa Industrial Zone - Abu Dhabi
           </p>

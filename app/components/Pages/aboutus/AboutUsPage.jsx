@@ -48,9 +48,9 @@ export const AboutUsPage = () => {
         viewport={{ once: true }}
       >
         <div className="bg-white font-normal relative w-fit lg:-mt-[100px] 2xl:-mt-[100px] z-30 lg:px-8 pt-4 lg:pt-12 lg:pb-40 my-12">
-          <h1 className="font-roboto text-center lg:text-left lg:text-[42px] text-4xl mb-[36px]">
+          <h2 className="font-roboto text-center lg:text-left lg:text-[42px] text-4xl mb-[36px]">
             Who We Are?
-          </h1>
+          </h2>
           <div className="text-[16px] lg:text-[20px] text-justify font-poppins space-y-6">
             <p>
               Safecare Medical Industries was conceived and established in the
@@ -90,7 +90,7 @@ export const AboutUsPage = () => {
             viewport={{ once: true }}
             className="bg-[#1E3D69] text-white flex justify-center flex-col font-normal lg:p-10 px-5 py-10 w-full md:w-1/2"
           >
-            <h1 className="text-[44px] mb-2 font-roboto">Our Mission</h1>
+            <h2 className="text-[44px] mb-2 font-roboto">Our Mission</h2>
             <p className="font-poppins">
               Our mission is to become an admired, customer-friendly, and
               innovative medical solutions provider.
@@ -106,7 +106,7 @@ export const AboutUsPage = () => {
             className="bg-no-repeat bg-cover  flex justify-center flex-col lg:p-10 px-5 py-10 w-full md:w-1/2 font-normal flex-wrap"
             style={{ backgroundImage: `url(${vissionbg.src})` }}
           >
-            <h1 className="text-[44px] mb-2 font-roboto">Our Vision</h1>
+            <h2 className="text-[44px] mb-2 font-roboto">Our Vision</h2>
             <p className="font-poppins">
               Safecare Medical Industries exists to improve human life quality
               through affordable and reliable innovations.
