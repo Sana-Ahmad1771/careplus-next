@@ -10,10 +10,13 @@ export const metadata = {
   title: "Products",
   description:
     "Browse our range of high-quality healthcare products designed for your needs.",
+   alternates: {
+    canonical: "https://careplus-next.vercel.app/products",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://careplus-next.vercel.app",
+    url: "https://careplus-next.vercel.app/products",
     siteName: "Care Plus",
     title: "Products - Care Plus",
     description:

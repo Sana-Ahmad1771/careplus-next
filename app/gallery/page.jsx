@@ -8,10 +8,13 @@ export const metadata = {
   title: "Gallery",
   description:
     "Browse our gallery featuring high-quality industry images, showcasing modern equipment, innovative processes, and professional work environments that reflect our expertise and commitment to excellence.",
-  openGraph: {
+   alternates: {
+    canonical: "https://careplus-next.vercel.app/gallery",
+  },
+    openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://careplus-next.vercel.app",
+    url: "https://careplus-next.vercel.app/gallery",
     siteName: "Care Plus",
     title: "Gallery - Care Plus",
     description:

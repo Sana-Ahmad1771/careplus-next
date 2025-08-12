@@ -9,10 +9,13 @@ import Footer from "../components/common/Footer";
 export const metadata = {
   title: "About Us",
   description: "Learn more about CarePlus, our mission, and our commitment to healthcare excellence.",
+  alternates: {
+    canonical: "https://careplus-next.vercel.app/about",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://careplus-next.vercel.app",
+    url: "https://careplus-next.vercel.app/about",
     siteName: "Care Plus",
     title: "About - Care Plus",
     description: "Learn more about CarePlus, our mission, and our commitment to healthcare excellence.",

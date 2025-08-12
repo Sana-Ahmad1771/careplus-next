@@ -8,10 +8,13 @@ export const metadata = {
   title: "Contact",
   description:
     "Get in touch with us for inquiries, support, or service details. Find our location, contact form, and ways to connect with our team.",
-  openGraph: {
+   alternates: {
+    canonical: "https://careplus-next.vercel.app/contact",
+  },
+    openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://careplus-next.vercel.app",
+    url: "https://careplus-next.vercel.app/contact",
     siteName: "Care Plus",
     title: "Contact - Care Plus",
     description:

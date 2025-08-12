@@ -24,7 +24,7 @@ export const metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://careplus-next.vercel.app",
+    url: "https://careplus-next.vercel.app/",
     siteName: "Care Plus",
     title: "Care Plus",
     description:
